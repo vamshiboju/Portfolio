@@ -3,12 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import moviehub from "../../Assets/Projects/moviehub.svg";
-import taskmanagment from "../../Assets/Projects/taskmanager.svg";
-import connectingworld from "../../Assets/Projects/ConnectingWorld.svg";
-import chatapp from "../../Assets/Projects/Chatapp.svg";
-import sortvisualizer from "../../Assets/Projects/sortvisualizer.svg";
-import Project1 from "./Project1";
+import moviehub from "../../Assets/Projects/moviehub.png";
+import taskmanagment from "../../Assets/Projects/taskmanager.png";
+import connectingworld from "../../Assets/Projects/ConnectingWorld.png";
+import chatapp from "../../Assets/Projects/Chatapp.png";
+import sortvisualizer from "../../Assets/Projects/sortvisualizer.png";
+
 
 function Projects() {
   return (
@@ -30,7 +30,7 @@ function Projects() {
               description="A full-stack app visualizing social connections using a graph-based structure. Built with the MERN stack and React Hooks, it reduced page load time by 25% and included features like Get in Touch and People Near You. This project strengthened my skills in graph structures, full-stack development, and UX design. "
               ghLink="https://github.com/vamshiboju/ConnectingWorld-deploy"
               demoLink="https://connectingworld-fe.onrender.com/"
-              ViewLink="http://localhost:3000/connectingworld"
+              ViewLink="/connectingworld"
             />
           </Col>
           <Col md={4} className="project-card">

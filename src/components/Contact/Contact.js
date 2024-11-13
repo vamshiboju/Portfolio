@@ -1,10 +1,7 @@
 import React from 'react'
-import Particle from '../Particle'
 import { Container } from 'react-bootstrap'
 import Aboutme from './Aboutme'
 import { Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
 import {
     AiFillGithub,
     AiFillInstagram,

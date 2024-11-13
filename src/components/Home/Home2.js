@@ -8,7 +8,6 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 function Home2() {
   return (

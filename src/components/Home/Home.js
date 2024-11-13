@@ -2,14 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main1.jpg";
 import Particle from "../Particle";
-import Home2 from "./Home2";
 import Type from "./Type";
 import Tilt from "react-parallax-tilt";
-import { Link } from "react-router-dom";
-import ResumeNew from "../Resume/ResumeNew"
-import Github from "../About/Github";
 import Techstack from "../About/Techstack";
-import Aboutcard from "../About/AboutCard";
 import Toolstack from "../About/Toolstack";
 
 function Home() {

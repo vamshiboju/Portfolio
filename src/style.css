@@ -1227,4 +1227,12 @@ button:focus {
     color: var(--imp-text-color);
     /* background-image: url("./Assets/ConnectingWorld/ConnectingWorld_UserPage.png"); */
   }
+  .project-image-Div{
+    display : flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .project-image{
+    margin-top: 10px;
+  }
 }

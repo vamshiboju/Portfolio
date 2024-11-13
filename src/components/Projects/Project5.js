@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import Particle from "../Particle";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import SV_1 from "./Sortvisualizer/SV_1.png"
@@ -16,8 +15,6 @@ const Project5 = () => {
     return (
         <div>
             <Container fluid className="Project-section">
-                <Particle />
-
                 <Row className="Project-section-Title">
                     Sort Visualizer
                 </Row>

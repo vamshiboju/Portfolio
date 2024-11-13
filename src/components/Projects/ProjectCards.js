@@ -7,7 +7,6 @@ import { CiViewTimeline } from "react-icons/ci";
 import { Link } from "react-router-dom";
 
 function ProjectCards(props) {
-  const Sample = "" + props.ViewLink
   return (
 
     <Card className="project-card-view">
@@ -35,14 +34,12 @@ function ProjectCards(props) {
           <CgWebsite /> &nbsp;
           {"Website"}
         </Button>
-        <Button
-          variant="primary"
-          href={props.ViewLink}
-          style={{ marginLeft: "10px" }}
-        >
-          <CiViewTimeline /> &nbsp;
-          {"View"}
-        </Button>
+        <Link to={props.ViewLink}>
+          <Button variant="primary" style={{ marginLeft: "10px" }}>
+            <CiViewTimeline /> &nbsp;
+            {"View"}
+          </Button>
+        </Link>
       </Card.Body>
     </Card >
   );

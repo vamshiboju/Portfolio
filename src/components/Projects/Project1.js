@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import Particle from "../Particle";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import CW_Homepage from "./ConnectingWorld/ConnectingWorld_HomePage.png"
@@ -15,7 +14,7 @@ const Project1 = () => {
     return (
         <div>
             <Container fluid className="Project-section">
-                <Particle />
+
 
                 <Row className="Project-section-Title">
                     Connecting World
