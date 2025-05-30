@@ -306,6 +306,12 @@ button:focus {
   padding-left: 45px !important;
 }
 
+.heading-name2 {
+  font-size: 1.25em !important;
+  padding-left: 8px !important;
+  padding-bottom: 15px;
+}
+
 .main-name {
   color: #cd5ff8;
 }
@@ -318,12 +324,31 @@ button:focus {
   font-size: 1em !important;
 }
 
+.home-about-body-2 {
+
+  
+  box-shadow: rgba(119, 53, 136, 0.459) 0px 50px 100px -20px, rgba(119, 53, 136, 0.459) 0px 30px 60px -30px,rgba(119, 53, 136, 0.459) 0px -2px 6px 0px ;
+  /* cursor: zoom-in; */
+
+  text-align: justify;
+  padding: 40px;
+  font-size: 1.1em !important;
+  /* box-shadow: 0px 4px 5px 3px rgba(119, 53, 136, 0.459) !important; */
+  /* background-color: rgba(119, 53, 136, 0.459); */
+  /* background-color: rgb(230, 242, 246); */
+  border-radius: 10px;
+  /* filter: drop-shadow(0 0 0.75rem rgba(119, 53, 136, 0.459)); */
+  align-items: center;
+}
+
+
 .img-fluid {
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
   max-height: 900px;
   width: 600px;
   border-radius: 40px;
   margin-top: 20px;
+  /* box-shadow: 0px 4px 5px 2px rgba(119, 53, 136, 0.459); */
 }
 
 @media (max-width: 767px) {
@@ -355,6 +380,13 @@ button:focus {
     padding-left: 50px;
     padding-right: 120px;
     font-size: 1em !important;
+  }
+  .home-about-body-2 {
+  text-align: justify;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 0.6em !important;
   }
 
   .heading-type {
@@ -630,7 +662,7 @@ button:focus {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 70px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
@@ -736,7 +768,7 @@ button:focus {
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 80px !important;
-  padding-top: 20px !important;
+  padding-top: 0px !important;
 }
 
 .about-section-connect {
@@ -796,8 +828,16 @@ button:focus {
 
 .about-section1 {
   position: relative !important;
-  padding-top: 50px !important;
-  padding-bottom: 30px !important;
+  padding-top: 70px !important;
+  padding-bottom: 40px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
+
+.about-section2 {
+  position: relative !important;
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
 }

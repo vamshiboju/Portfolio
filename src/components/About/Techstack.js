@@ -5,6 +5,12 @@ import { FaAws } from "react-icons/fa";
 import { FaHtml5, FaBootstrap } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
+import { BiLogoSpringBoot } from "react-icons/bi";
+import { FaJenkins } from "react-icons/fa";
+import { FaDocker } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
+import { RiNextjsLine } from "react-icons/ri";
+
 
 import {
   DiJavascript1,
@@ -37,6 +43,9 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <BiLogoSpringBoot />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -60,6 +69,13 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <FaAws />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaJenkins />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaDocker />
+      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
       </Col>

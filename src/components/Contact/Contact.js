@@ -113,17 +113,6 @@ const Contact = () => {
                     </div>
                 </div>
             </Container>
-            <Container fluid className="aboutme-section">
-                <Container>
-
-                    <h1 className="project-heading">
-                        About <strong className="purple">Me </strong>
-                    </h1>
-                    <div className='section-aboutme'>
-                        <Aboutme />
-                    </div>
-                </Container>
-            </Container>
         </section>
 
     )
