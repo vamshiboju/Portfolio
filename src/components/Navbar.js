@@ -62,18 +62,17 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
+                onClick={() => window.location.href = "#experience_div"}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Experience
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
-                onClick={() => updateExpanded(false)}
+                // to="/project"
+                onClick={() => window.location.href = "#projects_div"}
               >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
@@ -81,11 +80,26 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
+
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/contact"
-                onClick={() => updateExpanded(false)}
+                // to="/project"
+                onClick={() => window.location.href = "#skills_div"}
+              >
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Skillset
+              </Nav.Link>
+            </Nav.Item>
+
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                // to="/contact"
+                onClick={() => window.location.href = "#contacts_div"}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
