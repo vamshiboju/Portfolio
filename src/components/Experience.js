@@ -11,32 +11,47 @@ const Experience = () => {
 
                 <p className="home-about-body-2">
                     <h1 className="heading-name2"> <strong className="main-name"> <b className="purple">Walmart, TX </b> , <b className="main-name"> Full Stack Developer (June 2024 – Present) </b> </strong> </h1>
-                    • Built and maintained 15+ single-page applications (SPAs) using React.js, TypeScript, Material UI, and Tailwind CSS, ensuring adherence to accessibility standards and achieving consistent cross-device performance.
+                    • Built and maintained 15+ reactive and reusable single-page applications (SPAs) using Angular 14, TypeScript, HTML5, CSS3, and Tailwind CSS, delivering modern, cross-device web interfaces with strong accessibility and performance compliance.
                     <br />
-                    • Developed distributed services and RESTful APIs with Node.js and Express.js, enabling high-throughput data operations across microservices.
+                    • Developed dynamic and stateful front-end components using RxJS Observables, Angular Services, Reactive Forms, and robust component communication patterns, ensuring modular and maintainable architecture.
                     <br />
-                    • Implemented responsive and interactive React components leveraging Lifecycle Methods, State, Props, and React Router, accelerating front-end feature delivery.
+                    • Designed and consumed RESTful APIs with Spring MVC and integrated them into Angular and React frontends, enabling seamless end-to-end functionality across microservices.
                     <br />
-                    • Designed and built CRUD functionalities using Require.js and modular JavaScript architecture, improving maintainability and scalability.
+                    • Engineered scalable microservices using Spring Boot, Java, and Spring Security, applying dependency injection with Spring Core annotations for decoupled and testable service layers.
                     <br />
-                    • Integrated RabbitMQ (AMQP) for asynchronous, event-driven communication, enabling real-time processing and system resilience.
+                    • Leveraged advanced Java features like streams and lambda expressions to optimize performance and simplify business logic.
                     <br />
-                    • Designed and optimized relational database queries with PostgreSQL and MySQL, improving data access performance for key business operations.
+                    • Built real-time event-driven systems with Apache Kafka and integrated RabbitMQ and Spring JMS for resilient asynchronous communication.
                     <br />
-                    • Developed scalable document-based services with MongoDB and Mongoose, improving flexibility for dynamic data models.
+                    • Automated infrastructure provisioning with Terraform and Ansible, streamlining deployment workflows in CI/CD pipelines.
                     <br />
-                    • Deployed cloud-native applications on AWS EC2 with storage managed in AWS S3, reducing infrastructure costs by 25% while improving scalability.
+                    • Performed rigorous API testing using Postman and SOAP UI to ensure reliable back-end contract enforcement and request/response integrity.
                     <br />
-                    • Containerized and orchestrated microservices using Docker and Kubernetes, ensuring 100% uptime during production rollouts.
+                    • Developed robust data persistence layers using JPA/Hibernate with PostgreSQL and Oracle, optimizing query performance and transactional integrity.
                     <br />
-                    • Automated CI/CD pipelines using GitHub Actions and Jenkins, enabling stable, repeatable, and fast release cycles.
+                    • Deployed cloud-native Spring Boot applications on AWS EC2 with S3 integration, and enabled service discovery/configuration using Spring Cloud.
                     <br />
-                    • Wrote and maintained 150+ automated test cases using Jest, Mocha, and Storybook, achieving 95%+ test coverage across critical UI components.
+                    • Automated CI/CD pipelines using Jenkins, Maven, and GitHub Actions, achieving fast and consistent build and release cycles.
                     <br />
-                    • Partnered with designers, product managers, and QA across 20+ Agile sprints, achieving a 98% on-time delivery rate for user-facing features.
+                    • Applied Generative AI tools such as OpenAI GPT-4 and LangChain to create intelligent, data-driven features and automation.
                     <br />
+                    • Orchestrated microservices with Kubernetes and Docker, ensuring high availability, load balancing, and fault tolerance across deployments.
                     <br />
-                    <h1 className="heading-name2"> <strong className="main-name"> <b className="purple">Wells Fargo, Irving, TX </b> , <b className="main-name"> Software Engineer (Oct 2023 – May 2024) </b> </strong> </h1>
+                    • Practiced test-driven development (TDD) using Jasmine, JUnit, TestNG, and Jest, maintaining high-quality standards across full-stack components.
+                    <br />
+                    • Collaborated in 20+ Agile sprints with cross-functional teams using JIRA, contributing to timely and efficient product delivery.
+                    <br />
+                    • Used Git and GitHub for version control, applying Git Flow branching strategies and conducting code reviews to ensure code quality.
+                    <br />
+                    • Participated in daily stand-ups, sprint planning, and retrospectives to align development progress with stakeholder expectations.
+                    <br />
+
+
+                    <br />
+
+                    {/* wellsfargo */}
+
+                    <h1 className="heading-name2"> <strong className="main-name"> <b className="purple">Wells Fargo, Irving, TX </b> , <b className="main-name"> Software Engineer (September 2023 – May 2024) </b> </strong> </h1>
                     • Designed and developed scalable, enterprise-grade applications using Java, Spring Boot, Spring MVC, Spring Security, and Hibernate, ensuring secure and performant backend services.
                     <br />
                     • Developed and integrated RESTful APIs, delivering modular and scalable interactions between front-end and external systems.
@@ -63,7 +78,9 @@ const Experience = () => {
                     <br />
                     <br />
 
-                    <h1 className="heading-name2"> <strong className="main-name"> <b className="purple">Pradiota IT Solutions, India </b> , <b className="main-name"> Software Developer (Oct 2022 – July 2023) </b> </strong> </h1>
+                    {/* Pradiota IT solutions*/}
+
+                    <h1 className="heading-name2"> <strong className="main-name"> <b className="purple">Pradiota IT Solutions, India </b> , <b className="main-name"> Software Developer (May 2021 – July 2023) </b> </strong> </h1>
                     • Designed and deployed scalable Spring Boot microservices and MVC-based web applications using Spring MVC, JSP, Servlets, and Hibernate, delivering modular and high-performance systems.
                     <br />
                     • Integrated RESTful and SOAP/WSDL web services to enable seamless, secure data exchange with third-party systems, including payment processing.
